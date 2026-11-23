@@ -1,0 +1,5 @@
+id,student,course,round,state
+K1,T8S001,H5,2,confirmed
+K2,T8S003,H4,2,confirmed
+K3,T8S004,H3,2,requested
+K4,T8S010,H5,2,withdrawn

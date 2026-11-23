@@ -1,0 +1,66 @@
+{
+  "pool.csv": [
+    "term",
+    "round",
+    "course",
+    "capacity",
+    "time_band",
+    "published_round"
+  ],
+  "entrance.csv": [
+    "id",
+    "term",
+    "direction",
+    "track",
+    "planned_course",
+    "last_transfer_round"
+  ],
+  "event.csv": [
+    "id",
+    "student",
+    "round",
+    "received_round",
+    "course",
+    "kind",
+    "supersedes"
+  ],
+  "outcome.csv": [
+    "student",
+    "round",
+    "received_round",
+    "achieved",
+    "last_course",
+    "state"
+  ],
+  "equivalence.csv": [
+    "version",
+    "term_start",
+    "term_end",
+    "direction",
+    "eligible_courses",
+    "required_credits",
+    "last_start"
+  ],
+  "proposal.csv": [
+    "id",
+    "version",
+    "course",
+    "release_round",
+    "capacity",
+    "time_band"
+  ],
+  "commitment.csv": [
+    "id",
+    "student",
+    "course",
+    "round",
+    "state"
+  ],
+  "decision.csv": [
+    "course",
+    "term",
+    "effective_round",
+    "received_round",
+    "state"
+  ]
+}

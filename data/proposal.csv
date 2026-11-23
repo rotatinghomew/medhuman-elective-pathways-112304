@@ -1,0 +1,8 @@
+id,version,course,release_round,capacity,time_band
+P1,V3,H3,2,8,A
+P1,V3,H4,2,7,B
+P1,V3,H5,2,5,B
+P2,V3,H3,3,10,B
+P2,V3,H4,2,4,B
+P2,V3,H5,2,9,A
+P3,V3,H6,2,8,A
