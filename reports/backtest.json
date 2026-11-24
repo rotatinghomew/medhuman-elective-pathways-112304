@@ -1,0 +1,297 @@
+{
+  "best_by_round": {
+    "1": "state",
+    "2": "state",
+    "3": "state"
+  },
+  "by_round": [
+    {
+      "as_of_round": 1,
+      "brier": 0.17017328990681732,
+      "events": 216,
+      "log_loss": 0.526216116553042,
+      "method": "base",
+      "n": 270
+    },
+    {
+      "as_of_round": 1,
+      "brier": 0.17017328990681732,
+      "events": 216,
+      "log_loss": 0.526216116553042,
+      "method": "naive_drop",
+      "n": 270
+    },
+    {
+      "as_of_round": 1,
+      "brier": 0.16827677296963384,
+      "events": 216,
+      "log_loss": 0.5220099178248453,
+      "method": "state",
+      "n": 270
+    },
+    {
+      "as_of_round": 2,
+      "brier": 0.17017328990681732,
+      "events": 216,
+      "log_loss": 0.526216116553042,
+      "method": "base",
+      "n": 270
+    },
+    {
+      "as_of_round": 2,
+      "brier": 0.2996786202285743,
+      "events": 216,
+      "log_loss": 3.1702407175495986,
+      "method": "naive_drop",
+      "n": 270
+    },
+    {
+      "as_of_round": 2,
+      "brier": 0.16390249890924252,
+      "events": 216,
+      "log_loss": 0.5121685824567126,
+      "method": "state",
+      "n": 270
+    },
+    {
+      "as_of_round": 3,
+      "brier": 0.17017328990681732,
+      "events": 216,
+      "log_loss": 0.526216116553042,
+      "method": "base",
+      "n": 270
+    },
+    {
+      "as_of_round": 3,
+      "brier": 0.34392802190601895,
+      "events": 216,
+      "log_loss": 3.902696495762209,
+      "method": "naive_drop",
+      "n": 270
+    },
+    {
+      "as_of_round": 3,
+      "brier": 0.10016977429400138,
+      "events": 216,
+      "log_loss": 0.3568260937997043,
+      "method": "state",
+      "n": 270
+    }
+  ],
+  "folds": [
+    {
+      "as_of": 1,
+      "n": 45,
+      "target_term": 2,
+      "training_terms": [
+        1
+      ]
+    },
+    {
+      "as_of": 2,
+      "n": 45,
+      "target_term": 2,
+      "training_terms": [
+        1
+      ]
+    },
+    {
+      "as_of": 3,
+      "n": 45,
+      "target_term": 2,
+      "training_terms": [
+        1
+      ]
+    },
+    {
+      "as_of": 1,
+      "n": 45,
+      "target_term": 3,
+      "training_terms": [
+        1,
+        2
+      ]
+    },
+    {
+      "as_of": 2,
+      "n": 45,
+      "target_term": 3,
+      "training_terms": [
+        1,
+        2
+      ]
+    },
+    {
+      "as_of": 3,
+      "n": 45,
+      "target_term": 3,
+      "training_terms": [
+        1,
+        2
+      ]
+    },
+    {
+      "as_of": 1,
+      "n": 45,
+      "target_term": 4,
+      "training_terms": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "as_of": 2,
+      "n": 45,
+      "target_term": 4,
+      "training_terms": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "as_of": 3,
+      "n": 45,
+      "target_term": 4,
+      "training_terms": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "as_of": 1,
+      "n": 45,
+      "target_term": 5,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "as_of": 2,
+      "n": 45,
+      "target_term": 5,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "as_of": 3,
+      "n": 45,
+      "target_term": 5,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "as_of": 1,
+      "n": 45,
+      "target_term": 6,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "as_of": 2,
+      "n": 45,
+      "target_term": 6,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "as_of": 3,
+      "n": 45,
+      "target_term": 6,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "as_of": 1,
+      "n": 45,
+      "target_term": 7,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "as_of": 2,
+      "n": 45,
+      "target_term": 7,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "as_of": 3,
+      "n": 45,
+      "target_term": 7,
+      "training_terms": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "interpretation": [
+    "base=只使用方向历史完成率",
+    "naive_drop=把任何可见报退都当作最终失败，是‘按退课数排名’的学生级近似",
+    "state=按该轮实际可知的在位/未安置/已转入状态做Beta收缩估计"
+  ],
+  "overall": [
+    {
+      "brier": 0.17017328990681785,
+      "log_loss": 0.5262161165530405,
+      "method": "base",
+      "n": 810
+    },
+    {
+      "brier": 0.2712599773471363,
+      "log_loss": 2.533051109954945,
+      "method": "naive_drop",
+      "n": 810
+    },
+    {
+      "brier": 0.14411634872429233,
+      "log_loss": 0.4636681980270868,
+      "method": "state",
+      "n": 810
+    }
+  ]
+}
